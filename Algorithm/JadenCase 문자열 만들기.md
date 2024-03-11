@@ -4,14 +4,14 @@
 
 코테에서 여러가지 함수 구현해봤자 의미없다는걸 가져왔다 ^^
 
-1. strtok (실패) [여기](#1차-strtok-도전!!)
+1. strtok (실패) [여기](#1차-strtok-도전)
 2. stringstream (실패) [여기](#2차-stringstream-도전)
 3. 문자로 먼저 전부 바꾸고 벡터 안 쓰고 stringstream (실패)
 4. 문자열별 냅다 비교 (성공)
 
 ## 띄어쓰기 구분하기 케이스별 실패작
 
-### 1차 strtok 도전!!
+### 1차 strtok 도전
 ```
 #include <string>
 #include <vector>
