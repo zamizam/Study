@@ -6,8 +6,8 @@
 
 1. strtok (실패) [여기](#1차-strtok-도전)
 2. stringstream (실패) [여기](#2차-stringstream-도전)
-3. 문자로 먼저 전부 바꾸고 벡터 안 쓰고 stringstream (실패)
-4. 문자열별 냅다 비교 (성공)
+3. 문자로 먼저 전부 바꾸고 벡터 안 쓰고 stringstream (실패) [여기](#3차-소문자로-먼저-전부-바꾸고-벡터-안-쓰고-stringstream-도전)
+4. 문자열별 냅다 비교 (성공) [여기](#4차-문자열끼리-그냥-비교-도전)
 
 ## 띄어쓰기 구분하기 케이스별 실패작
 
@@ -147,7 +147,7 @@ string solution(string s) {
 테스트 17 〉	통과 (0.02ms, 4.21MB)
 테스트 18 〉	통과 (0.02ms, 4.14MB)
 ```
-### 3차 소문자로 먼저 전부 바꾸고 벡터 안 쓰고 stringstream 도전!!!
+### 3차 소문자로 먼저 전부 바꾸고 벡터 안 쓰고 stringstream 도전
 ```
 #include <string>
 #include <vector>
@@ -214,7 +214,7 @@ string solution(string s) {
 테스트 17 〉	통과 (0.02ms, 3.68MB)
 테스트 18 〉	통과 (0.02ms, 4.21MB)
 ```
-### 4차 문자열끼리 그냥 비교 도전!
+### 4차 문자열끼리 그냥 비교 도전
 ```
 #include <string>
 #include <vector>
