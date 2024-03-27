@@ -1,7 +1,7 @@
 # CPU(Central Processing Unit)
 산술 논리 연산장치, 제어장치, 레지스터로 구성되어 있다. 인터럽트에 의해 단순히 메모리에 존재하는 명령어를 해석해서 실행한다.
 
-***[운영체제](https://github.com/zamizam/Study/blob/main/OS/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C.md)의 커널이 관리자 역할을 하여, 프로그램을 메모리에 올려 프로세스로 만들면 일꾼인 CPU가 처리한다.***
+> ***[운영체제](https://github.com/zamizam/Study/blob/main/OS/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C.md)의 커널이 관리자 역할을 하여, 프로그램을 메모리에 올려 프로세스로 만들면 일꾼인 CPU가 처리한다.***
 
 ### 제어장치(CU, Control Unit)
 프로세스 조직을 지시하는 CPU의 한 부품으로, 입출력장치 간 통신을 제어하고 명령어들을 읽고 해석하며 데이터 처리를 위한 순서를 결정한다.
