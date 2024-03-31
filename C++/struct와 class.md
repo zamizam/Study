@@ -1,4 +1,4 @@
-# Struct와 Class
+# struct와 class.
 아는 동생이 모의 면접을 봐주는데 struct와 class의 차이점을 물었다.
 
 단순히 생각나는 것은 접근 지정자가 다르다는 것과 struct는 상속이 불가능하다. 이것만 알고 있었다.
