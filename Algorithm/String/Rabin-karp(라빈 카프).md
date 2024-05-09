@@ -1,4 +1,4 @@
-## Rabin-karp Algorithm(라빈 카프 알고리즘)
+# Rabin-karp Algorithm(라빈 카프 알고리즘)
 string 문자열 탐색 알고리즘에는 대표적으로 1. KMP 2. Rabin-karp 3. Naive 4. Boyer Moore  등이 있다.
 
 코딩 테스트를 본다면 반드시 문자열 탐색 문제는 하나씩은 꼭 나온다.
