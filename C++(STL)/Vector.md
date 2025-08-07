@@ -80,14 +80,18 @@ std::cout << v.at(0); // 예외 안전 접근
 ```
 
 ## 요약 키워드
-vector : 동적 배열 / 임의 접근
 
-push_back, emplace_back : 요소 추가
+- `vector` : 동적 배열 / 임의 접근  
+- `push_back`, `emplace_back` : 요소 추가  
+- `reserve`, `capacity` : 메모리 최적화  
+- `at` vs `[]` : 예외 vs 속도  
+- `begin`, `end` : iterator 범위  
+- `resize`, `shrink_to_fit` : 사이즈 조정 및 메모리 회수  
 
-reserve, capacity : 메모리 최적화
+## 연관 키워드
 
-at vs [] : 예외 vs 속도
-
-begin, end : iterator 범위
-
-resize, shrink_to_fit : 사이즈 조정 및 메모리 회수
+- [`list`](./list.md) : 연결 리스트 구조로, 중간 삽입/삭제가 vector보다 빠름. 랜덤 접근은 불가  
+- [`deque`](./deque.md) : 양쪽 끝 삽입/삭제에 모두 최적화된 시퀀스 컨테이너  
+- [`array`](./array.md) : 정적 크기의 배열. 런타임에 크기 변경 불가하지만 매우 빠름  
+- [`stack`](./stack.md), [`queue`](./queue.md) : vector 기반의 어댑터 컨테이너. vector의 후방 삽입 성능 활용  
+- [`string`](./string.md) : 내부적으로 vector와 유사한 구조를 가지는 동적 문자열 컨테이너  
